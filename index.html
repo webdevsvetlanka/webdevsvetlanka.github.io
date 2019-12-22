@@ -9,6 +9,7 @@
     <title>Портфолио</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
   </head>
   <body>
@@ -16,9 +17,9 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-7">
-            <img class="header-image" src="img/main.png" alt="Макбук">
+            <img class="header-image wow pulse" src="img/main.png" alt="Макбук">
           </div>
-          <div class="col-xl-5">
+          <div class="col-xl-5 wow bounceInRight">
             <p class="header-pretitle">Веб-разработчик</p>
             <h1 class="header-title">Светлана Щенкова</h1>
             <p class="header-subtitle">Верстка на HTML/CSS<br>
@@ -33,7 +34,7 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container wow zoomIn">
         <h2>Портфолио</h2>
         <p class="main-subtitle">Мои работы</p>
         <div class="portfolio-block">
@@ -63,10 +64,10 @@
           <div class="col-sm-6">
             <div class="social">
               <p class="soc">Подпишитесь:</p>
-              <a href="https://ru-ru.facebook.com/"  target="_blank"><img src="img/social/facebook-icon.png" alt="facebook"></a>
-              <a href="https://telegram.org/"  target="_blank"><img src="img/social/telegram-icon.png" alt="telegram"></a>
-              <a href="https://vk.com/im?sel=17629349"  target="_blank"><img src="img/social/vk-icon.png" alt="vk"></a>
-              <a href="https://www.youtube.com/feed/subscriptions"  target="_blank"><img src="img/social/youtube-icon.png" alt="youtube"></a>
+              <a href="https://ru-ru.facebook.com/"  target="_blank"><img src="img/social/facebook-icon.png" alt="facebook" class=" wow heartBeat" data-wow-delay="0.1s"></a>
+              <a href="https://telegram.org/"  target="_blank"><img src="img/social/telegram-icon.png" alt="telegram" class=" wow heartBeat" data-wow-delay="0.2s"></a>
+              <a href="https://vk.com/im?sel=17629349"  target="_blank"><img src="img/social/vk-icon.png" alt="vk" class=" wow heartBeat" data-wow-delay="0.3s"></a>
+              <a href="https://www.youtube.com/feed/subscriptions"  target="_blank"><img src="img/social/youtube-icon.png" alt="youtube" class=" wow heartBeat" data-wow-delay="0.4s"></a>
             </div>
           </div>
           <div class="col-sm-3">
@@ -76,5 +77,9 @@
         </div>
       </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
   </body>
 </html>
