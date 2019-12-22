@@ -44,6 +44,10 @@ font-weight: 700;
 background-color: #ffffff;
 outline: none;
 }
+.header-button-block a {
+	text-decoration: none;
+	display: inline-block;
+}
 .header-button-block p {
 text-align: center;
 font-size: 12px;
@@ -161,6 +165,9 @@ border: 1px solid #ffffff;
 background-color: transparent;
 padding: 13px 40px;
 outline: none;
+text-decoration: none;
+display: inline-block;
+
 }
 p.butt {
 color: #deedfe;
@@ -250,7 +257,7 @@ footer h4 {
 		padding: 40px;
 	}
 	.portf {
-   width: 90%;
+   width: 100%;
    margin: 15px auto;
 }
 .col-sm-3 {
